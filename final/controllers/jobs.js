@@ -10,7 +10,7 @@ const getJob = async (req, res) => {
   const {
     user: { userId },
     params: { id: jobId },
-  } = req
+  } = req;
 
   const job = await Job.findOne({
     _id: jobId,
