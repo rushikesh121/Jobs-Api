@@ -8,4 +8,4 @@ module.exports = {
   UnauthenticatedError,
   NotFoundError,
   BadRequestError,
-}
+};
